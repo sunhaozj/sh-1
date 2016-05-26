@@ -1,0 +1,312 @@
+\begin{thebibliography}{10}
+\providecommand{\bibauthor}[1]{#1}
+\providecommand{\bibeditor}[1]{#1}
+\providecommand{\bibtranslator}[1]{#1}
+\providecommand{\bibtitle}[1]{#1}
+\providecommand{\bibbooktitle}[1]{#1}
+\providecommand{\bibjournal}[1]{#1}
+\providecommand{\bibmark}[1]{#1}
+\providecommand{\bibcountry}[1]{#1}
+\providecommand{\bibpatentid}[1]{#1}
+\providecommand{\bibedition}[1]{#1}
+\providecommand{\biborganization}[1]{#1}
+\providecommand{\bibaddress}[1]{#1}
+\providecommand{\bibpublisher}[1]{#1}
+\providecommand{\bibinstitution}[1]{#1}
+\providecommand{\bibschool}[1]{#1}
+\providecommand{\bibvolume}[1]{#1}
+\providecommand{\bibnumber}[1]{#1}
+\providecommand{\bibversion}[1]{#1}
+\providecommand{\bibpages}[1]{#1}
+\providecommand{\bibmodifydate}[1]{#1}
+\providecommand{\bibcitedate}[1]{#1}
+\providecommand{\bibyear}[1]{#1}
+\providecommand{\bibdate}[1]{#1}
+\providecommand{\biburl}[1]{\newline\url{#1}}
+
+\bibitem{Mobile}
+\bibauthor{MOKBEL M~F}\@. \bibtitle{Privacy in Location-Based
+  Services:State-of-the-Art and Research Direction}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the 8th International Conference
+  on Mobile Data Management}\@. \bibyear{2007}\@.
+
+\bibitem{knn}
+\bibauthor{XUN Y\@, RUSSELL P\@, ELISA B, et~al}\@. \bibtitle{Practical k
+  nearest neighbor queries with location privacy}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{2014 IEEE 30th International Conference on Data
+  Engineering}\@. \bibaddress{[S.l.]}\thinspace{}\textnormal{:
+  }\bibpublisher{IEEE}\@, \bibyear{2014}\thinspace{}\textnormal{:
+  }\bibpages{640\thinspace{}\textnormal{--}\thinspace{}651}\@.
+
+\bibitem{RSAInfo}
+\bibauthor{王丽娜}\@.
+  \bibtitle{于移动互联网络的位置服务隐私保护}\bibmark{[R]}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{:
+  }\bibinstitution{RSA信息安全大会}\@, \bibyear{2012}\@.
+
+\bibitem{sweeney}
+\bibauthor{SWEENEY L}\@. \bibtitle{k-anonymity: a model for protecting
+  privacy}\bibmark{[J]}\@. \bibjournal{International Journal on
+  Uncertainty,Fuzziness and Knowledge-based System}\@, \bibyear{2002}\@,
+  \bibvolume{10}\bibnumber{(5)}\thinspace{}\textnormal{:
+  }\bibpages{557\thinspace{}\textnormal{--}\thinspace{}570}\@.
+
+\bibitem{group}
+\bibauthor{RONGXING L\@, XIAODONG L\@, TOM H~L, et~al}\@. \bibtitle{Pseudonym
+  changing at social spots: An effective strategy for location privacy in
+  vanets}\bibmark{[J]}\@. \bibjournal{IEEE Transactions on Vehicular
+  Technology}\@, \bibyear{2012}\@,
+  \bibvolume{61}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{86\thinspace{}\textnormal{--}\thinspace{}96}\@.
+
+\bibitem{homomor}
+\bibauthor{GENTRY C}\@. \bibtitle{Fully homomorphic encryption using ideal
+  lattices}\bibmark{[C]} //\thinspace{}\bibbooktitle{STOC}\@.
+  \bibyear{2009}\thinspace{}\textnormal{:
+  }\bibpages{169\thinspace{}\textnormal{--}\thinspace{}178}\@.
+
+\bibitem{muticompute}
+\bibauthor{GOLDWASSER S}\@. \bibtitle{Multi party computations: past and
+  present}\bibmark{[C]} //\thinspace{}\bibbooktitle{Proceedings of 16th Annual
+  ACM Symposium on Principles of Distributed Computing}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{ACM}\@,
+  \bibyear{1997}\@.
+
+\bibitem{differential}
+\bibauthor{DWORK C}\@. \bibbooktitle{Differential privacy}\bibmark{[M]}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{Automata,
+  languages and programming. Springer Berlin Heidelberg}\@,
+  \bibyear{2006}\thinspace{}\textnormal{:
+  }\bibpages{1\thinspace{}\textnormal{--}\thinspace{}12}\@.
+
+\bibitem{kanonomy}
+\bibauthor{SWEENEY L}\@. \bibtitle{Achieving k-anonymity privacy protection
+  using generalization and suppression}\bibmark{[J]}\@.
+  \bibjournal{International Journal of Uncertainty, Fuzziness and
+  Knowledge-Based Systems}\@, \bibyear{2002}\@,
+  \bibvolume{10}\bibnumber{(5)}\thinspace{}\textnormal{:
+  }\bibpages{571\thinspace{}\textnormal{--}\thinspace{}588}\@.
+
+\bibitem{Myles}
+\bibauthor{MYLES G\@, FRIDAY A\@, DAVIES N}\@. \bibtitle{Preserving privacy in
+  environments with location-based applications}\bibmark{[J]}\@.
+  \bibjournal{IEEE Pervasive Computing}\@, \bibyear{2003}\@,
+  \bibvolume{2}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{56\thinspace{}\textnormal{--}\thinspace{}64}\@.
+
+\bibitem{Youssef}
+\bibauthor{YOUSSEF M\@, ATLURI V\@, ADAM R~N}\@. \bibtitle{Preserving mobile
+  customer privacy: An access control system for moving objects and customer
+  profiles}\bibmark{[C]} //\thinspace{}\bibbooktitle{Proceedings of the 6th
+  international conference on Mobile data management}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{ACM}\@,
+  \bibyear{2005}\thinspace{}\textnormal{:
+  }\bibpages{67\thinspace{}\textnormal{--}\thinspace{}76}\@.
+
+\bibitem{Beresford}
+\bibauthor{BERESFORD R~A\@, STAJANO F}\@. \bibtitle{Location privacy in
+  pervasive computing}\bibmark{[J]}\@. \bibjournal{IEEE Pervasive computing}\@,
+  \bibyear{2003}\@, \bibvolume{2}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{46\thinspace{}\textnormal{--}\thinspace{}55}\@.
+
+\bibitem{Bamba}
+\bibauthor{BAMBA B\@, LIU L\@, PESTI P}\@. \bibtitle{Supporting anonymous
+  location queries in mobile environments with privacygrid}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the 17th international conference
+  on World Wide Web}\@. \bibaddress{[S.l.]}\thinspace{}\textnormal{:
+  }\bibpublisher{ACM}\@, \bibyear{2008}\thinspace{}\textnormal{:
+  }\bibpages{237\thinspace{}\textnormal{--}\thinspace{}246}\@.
+
+\bibitem{Chow}
+\bibauthor{CHOW Y~C\@, MOKBEL F~M\@, LIU X}\@. \bibtitle{A peer-to-peer spatial
+  cloaking algorithm for anonymous location-based service}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the 14th annual ACM international
+  symposium on Advances in geographic information systems}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{ACM}\@,
+  \bibyear{2006}\thinspace{}\textnormal{:
+  }\bibpages{171\thinspace{}\textnormal{--}\thinspace{}178}\@.
+
+\bibitem{Mokbel}
+\bibauthor{MOKBEL F~M\@, CHOW Y~C\@, AREF W~G}\@. \bibtitle{The new Casper:
+  query processing for location services without compromising
+  privacy}\bibmark{[C]} //\thinspace{}\bibbooktitle{Proceedings of the 32nd
+  international conference on Very large data bases. VLDB Endowment}\@.
+  \bibyear{2006}\thinspace{}\textnormal{:
+  }\bibpages{763\thinspace{}\textnormal{--}\thinspace{}774}\@.
+
+\bibitem{YiuML}
+\bibauthor{YIU L~M\@, JENSEN C~S\@, HUANG X}\@. \bibtitle{Spacetwist: Managing
+  the trade-offs among location privacy, query performance, and query accuracy
+  in mobile services}\bibmark{[C]} //\thinspace{}\bibbooktitle{In Proc.ICDE}\@.
+  \bibyear{2008}\thinspace{}\textnormal{:
+  }\bibpages{366\thinspace{}\textnormal{--}\thinspace{}375}\@.
+
+\bibitem{Shankar}
+\bibauthor{SHANKAR P\@, GANAPATHY V\@, IFTODE L}\@. \bibtitle{Privately
+  querying location-based services with SybilQuery}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the 11th international conference
+  on Ubiquitous computing}\@. \bibaddress{[S.l.]}\thinspace{}\textnormal{:
+  }\bibpublisher{ACM}\@, \bibyear{2009}\thinspace{}\textnormal{:
+  }\bibpages{31\thinspace{}\textnormal{--}\thinspace{}40}\@.
+
+\bibitem{HuH}
+\bibauthor{HU H\@, XU J\@, REN C}\@. \bibtitle{Processing private queries over
+  untrusted data cloud through privacy homomorphism}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Data Engineering (ICDE)}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{IEEE}\@,
+  \bibyear{2011}\thinspace{}\textnormal{:
+  }\bibpages{601\thinspace{}\textnormal{--}\thinspace{}612}\@.
+
+\bibitem{Khoshgozaran}
+\bibauthor{KHOSHGOZARAN A\@, SHAHABI C}\@. \bibtitle{Blind evaluation of
+  nearest neighbor queries using space transformation to preserve location
+  privacy}\bibmark{[R]}\@. \bibaddress{[S.l.]}\thinspace{}\textnormal{:
+  }\bibinstitution{Advances in Spatial and Temporal Databases. Springer Berlin
+  Heidelberg}\@, \bibyear{2007}\thinspace{}\textnormal{:
+  }\bibpages{239\thinspace{}\textnormal{--}\thinspace{}257}\@.
+
+\bibitem{Ghinita}
+\bibauthor{GHINITA G\@, KALNIS P\@, KHOSHGOZARAN A}\@. \bibtitle{Private
+  queries in location based services: anonymizers are not
+  necessary}\bibmark{[C]} //\thinspace{}\bibbooktitle{Proceedings of the 2008
+  ACM SIGMOD international conference on Management of data}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{ACM}\@,
+  \bibyear{2008}\thinspace{}\textnormal{:
+  }\bibpages{121\thinspace{}\textnormal{--}\thinspace{}132}\@.
+
+\bibitem{GhinitaPRIVE}
+\bibauthor{GHINITA G\@, KALNIS P\@, SKIADOPOULOS S}\@. \bibtitle{PRIVE:
+  anonymous location-based queries in distributed mobile systems}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the 16th international conference
+  on World Wide Web}\@. \bibaddress{[S.l.]}\thinspace{}\textnormal{:
+  }\bibpublisher{ACM}\@, \bibyear{2007}\thinspace{}\textnormal{:
+  }\bibpages{371\thinspace{}\textnormal{--}\thinspace{}380}\@.
+
+\bibitem{Williams}
+\bibauthor{WILLIAMS P\@, SION R}\@. \bibtitle{Usable PIR}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{NDSS}\@. \bibyear{2008}\@.
+
+\bibitem{zhanghao}
+\bibauthor{张浩}\@.
+  \bibbooktitle{基于位置服务的信息隐私保护技术研究}\bibmark{[M]}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{:
+  }\bibpublisher{中国科学技术大学}\@, \bibyear{2014}\@.
+
+\bibitem{WuYinJie}
+\bibauthor{YINJIE W}\@. \bibbooktitle{Privacy Preserving Data Publishing:Models
+  and Algorithms}\bibmark{[M]}\@. \bibaddress{[S.l.]}\thinspace{}\textnormal{:
+  }\bibpublisher{Tsinghua University Press}\@, \bibyear{2015}\@.
+
+\bibitem{ChengR}
+\bibauthor{CHENG R\@, ZHANG Y\@, BERTINO E}\@. \bibtitle{Preserving user
+  location privacy in mobile data management infrastructures}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Privacy Enhancing Technologies}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{Springer Berlin
+  Heidelberg}\@, \bibyear{2006}\thinspace{}\textnormal{:
+  }\bibpages{393\thinspace{}\textnormal{--}\thinspace{}412}\@.
+
+\bibitem{Gruteser}
+\bibauthor{GRUTESER M\@, GRUNWALD D}\@. \bibtitle{Anonymous usage of
+  location-based services through spatial and temporal cloaking}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the 1st international conference
+  on Mobile systems, applications and services}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{ACM}\@,
+  \bibyear{2003}\thinspace{}\textnormal{:
+  }\bibpages{31\thinspace{}\textnormal{--}\thinspace{}42}\@.
+
+\bibitem{Mix}
+\bibauthor{BERESFORD R~A\@, STAJANO F}\@. \bibtitle{Mix zones: User privacy in
+  location-aware services}\bibmark{[J]}\@. \bibjournal{IEEE Pervasive
+  computing}\@, \bibyear{2004}\@.
+
+\bibitem{Dummies}
+\bibauthor{KIDO H\@, YANAGISAWA Y\@, SATOH T}\@. \bibtitle{An anonymous
+  communication technique using dummies for location-based
+  services}\bibmark{[C]} //\thinspace{}\bibbooktitle{ICPS}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{IEEE}\@,
+  \bibyear{2005}\thinspace{}\textnormal{:
+  }\bibpages{88\thinspace{}\textnormal{--}\thinspace{}97}\@.
+
+\bibitem{xu2010privacy}
+\bibauthor{XU J\@, TANG X\@, HU H, et~al}\@. \bibtitle{Privacy-conscious
+  location-based queries in mobile environments}\bibmark{[J]}\@.
+  \bibjournal{Parallel and Distributed Systems, IEEE Transactions on}\@,
+  \bibyear{2010}\@, \bibvolume{21}\bibnumber{(3)}\thinspace{}\textnormal{:
+  }\bibpages{313\thinspace{}\textnormal{--}\thinspace{}326}\@.
+
+\bibitem{xu2009feeling}
+\bibauthor{XU T\@, CAI Y}\@. \bibtitle{Feeling-based location privacy
+  protection for location-based services}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the 16th ACM conference on
+  Computer and communications security}\@.
+  \bibyear{2009}\thinspace{}\textnormal{:
+  }\bibpages{348\thinspace{}\textnormal{--}\thinspace{}357}\@.
+
+\bibitem{ardagna2007location}
+\bibauthor{ARDAGNA C~A\@, CREMONINI M\@, DAMIANI E, et~al}\@.
+  \bibtitle{Location privacy protection through obfuscation-based
+  techniques}\bibmark{[G]} //\thinspace{}\bibbooktitle{Data and Applications
+  Security XXI}\@. \bibaddress{[S.l.]}\thinspace{}\textnormal{:
+  }\bibpublisher{Springer}\@, \bibyear{2007}\thinspace{}\textnormal{:
+  }\bibpages{47\thinspace{}\textnormal{--}\thinspace{}60}\@.
+
+\bibitem{kalnis2007preventing}
+\bibauthor{KALNIS P\@, GHINITA G\@, MOURATIDIS K, et~al}\@.
+  \bibtitle{Preventing location-based identity inference in anonymous spatial
+  queries}\bibmark{[J]}\@. \bibjournal{Knowledge and Data Engineering, IEEE
+  Transactions on}\@, \bibyear{2007}\@,
+  \bibvolume{19}\bibnumber{(12)}\thinspace{}\textnormal{:
+  }\bibpages{1719\thinspace{}\textnormal{--}\thinspace{}1733}\@.
+
+\bibitem{wang2009privacy}
+\bibauthor{WANG T\@, LIU L}\@. \bibtitle{Privacy-aware mobile services over
+  road networks}\bibmark{[J]}\@. \bibjournal{Proceedings of the VLDB
+  Endowment}\@, \bibyear{2009}\@,
+  \bibvolume{2}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{1042\thinspace{}\textnormal{--}\thinspace{}1053}\@.
+
+\bibitem{hossain2011h}
+\bibauthor{HOSSAIN A-A\@, HOSSAIN A\@, YOO H-K, et~al}\@. \bibtitle{H-star:
+  Hilbert-order based star network expansion cloaking algorithm in road
+  networks}\bibmark{[C]} //\thinspace{}\bibbooktitle{Computational Science and
+  Engineering (CSE), 2011 IEEE 14th International Conference on}\@.
+  \bibyear{2011}\thinspace{}\textnormal{:
+  }\bibpages{81\thinspace{}\textnormal{--}\thinspace{}88}\@.
+
+\bibitem{wang2010device}
+\bibauthor{WANG S\@, WANG X~S}\@. \bibtitle{In-device spatial cloaking for
+  mobile user privacy assisted by the cloud}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Mobile Data Management (MDM), 2010 Eleventh
+  International Conference on}\@. \bibyear{2010}\thinspace{}\textnormal{:
+  }\bibpages{381\thinspace{}\textnormal{--}\thinspace{}386}\@.
+
+\bibitem{pan2012protecting}
+\bibauthor{PAN X\@, XU J\@, MENG X}\@. \bibtitle{Protecting location privacy
+  against location-dependent attacks in mobile services}\bibmark{[J]}\@.
+  \bibjournal{Knowledge and Data Engineering, IEEE Transactions on}\@,
+  \bibyear{2012}\@, \bibvolume{24}\bibnumber{(8)}\thinspace{}\textnormal{:
+  }\bibpages{1506\thinspace{}\textnormal{--}\thinspace{}1519}\@.
+
+\bibitem{juncheng2014potential}
+\bibauthor{JUNCHENG P\@, HUIMIN D\@, YINGHUI S, et~al}\@. \bibtitle{Potential
+  Attacks against k-Anonymity on LBS and Solutions for Defending the
+  Attacks}\bibmark{[G]} //\thinspace{}\bibbooktitle{Advances in Computer
+  Science and its Applications}\@. \bibaddress{[S.l.]}\thinspace{}\textnormal{:
+  }\bibpublisher{Springer}\@, \bibyear{2014}\thinspace{}\textnormal{:
+  }\bibpages{877\thinspace{}\textnormal{--}\thinspace{}883}\@.
+
+\bibitem{machanavajjhala2007diversity}
+\bibauthor{MACHANAVAJJHALA A\@, KIFER D\@, GEHRKE J, et~al}\@.
+  \bibtitle{l-diversity: Privacy beyond k-anonymity}\bibmark{[J]}\@.
+  \bibjournal{ACM Transactions on Knowledge Discovery from Data (TKDD)}\@,
+  \bibyear{2007}\@, \bibvolume{1}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{3}\@.
+
+\bibitem{li2007t}
+\bibauthor{LI N\@, LI T\@, VENKATASUBRAMANIAN S}\@. \bibtitle{t-closeness:
+  Privacy beyond k-anonymity and l-diversity}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Data Engineering, 2007. ICDE 2007. IEEE 23rd
+  International Conference on}\@. \bibyear{2007}\thinspace{}\textnormal{:
+  }\bibpages{106\thinspace{}\textnormal{--}\thinspace{}115}\@.
+
+\end{thebibliography}

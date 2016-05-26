@@ -1,0 +1,50 @@
+\newpage
+\vspace{-1cm}
+\chapter*{\zihao{-2}\heiti{ABSTRACT}}
+\vspace{-0.5cm}
+Being equipped with built-in GPS devices, thousands of taxis generate a large-scale collection of trajectory data in metropolitan areas everyday. Such data plays an essential role in variety of well-established location-based service (LBS) applications. So far taxi GPS data has been used for traffic modeling and urban computing. Examples include congestion prediction, itinerary planning, convoy detection, amongst others. Related LBS research works face challenges due to large data scale and low data quality. Gaining insights about the prevalence of distributed platforms, i.e. Hadoop, can provide useful tools to process and analyze large scale data. Thus, we introduce a framework to solve modeling and analysis of massive trajectory using distributed platform. Based on the processing framework, we implement a recommendation system which will answer queries of recommended pick-up points and predict vacant taxi waiting time for passengers.
+
+Main contributions of this paper are as follows:
+\begin{itemize}
+  \item \textbf{Distributed Big Trajectory Data Analysis Framework} ~~Proposed a distributed framework for massive trajectory processing. We split the general trajectory process into three phrases: noise filtering, map matching and feature extraction, then present the Map-Reduce compute paradigm for each of them. RouteFit algorithm is implemented for map matching in our work.
+  \item \textbf{Clustering-based Region of Interest Discovery} ~~Using density-based clustering algorithms to discover Point of Interest or Region of Interest in location data. Pick-up DBScan algorithm is developed in this paper to generate pick-up clustering from the pick-up points in trajectory data.Then, a candidate set of taxi pick-up POI, which will be the recommendation items, is generated using the clustering results.
+  \item \textbf{Pick-up Point Recommendation and Waiting Time Prediction} ~~We introduce the location-based service for travel optimization using large-scale taxi trajectories. Taxi pick-up points recommendation and waiting-time prediction system aims to recommend efficient locations for taxi hailing and give precise waiting-time prediction for passengers. The offline part re-builds the traffic prediction models using recent data periodically. Firstly, in the preprocessing module, we filter the raw GPS data with noise and errors. Then, the road segments are clustered into groups to reflect different traffic situations and generate ST-unit as modeling granularity. Finally, we build regression models and Poisson process models and then choose the best models for each ST-unit by evaluating sampled test set. The online part processes queries and gives real time pick-up points recommendations taking advantage of spatial indexing and web service techniques. Finally, we implement the prototype system to provide taxi pick-up points recommendation based on Shanghai taxi trajectory data.
+\end{itemize}
+
+\hspace{-0.5cm}
+{\sihao{\textbf{Keywords:}}} \textit{Mobile Recommendation;\, Location-based service;\, Trajectory mining.
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
