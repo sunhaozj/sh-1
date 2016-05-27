@@ -20,7 +20,7 @@
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=15 cm]{fig/independentConstruction.pdf}
+\includegraphics[width=12cm]{fig/independentConstruction.pdf}
 \caption{独立式结构示意图} %\vspace*{-1.0cm}
 \label{fig:independentConstruction_pdf}
 \end{figure}
@@ -34,7 +34,7 @@
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=15 cm]{fig/p2p.pdf}
+\includegraphics[width=12cm]{fig/p2p.pdf}
 \caption{独立式结构示意图} %\vspace*{-1.0cm}
 \label{fig:p2p_pdf}
 \end{figure}
@@ -47,7 +47,7 @@
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=15 cm]{fig/centralized.pdf}
+\includegraphics[width=12cm]{fig/centralized.pdf}
 \caption{独立式结构示意图} %\vspace*{-1.0cm}
 \label{fig:centralized_pdf}
 \end{figure}
@@ -63,19 +63,60 @@ $R=(UserID,Position,Query)$
 其中，userID代表移动用户的唯一身份标识符，如身份证号、手机号码；而Postion可以代表一个真实的精确位置，如GPS定位中的经度和纬度，也可以代表用户所在位置的一个模糊区域。Query代表用户查询的内容，如“查询附近的影院”。
 
 由定义2.3.1可知，可以通过对UserID进行保护处理，让服务提供商无法识别用户的ID。也可以对Position进行变换处理，让服务提供商无法通过Position获得用户的真实位置。综合这两方面，下面将详细介绍四种类型的隐私保护技术：(1) 假名技术； (2) 假位置技术； (3) 区域覆盖技术；(4) 密码学技术 。
+\paragraph{基本概念}
+\begin{define}[准标识符]
+给定一个关系表$T$（$T_1$,$T_2$,$T_3$,...,$T_n$）,若表$T$能通过属性集$T^’$=\{$T_i$,$T_i+1$,...,$T_j$\} ~$\subseteq$~ \{$T_1$,$T_2$,$T_3$,...,$T_n$\} 与其他公开发布的数据进行连接，并且重新识别出实体隐私信息或部分隐私信息，则属性集$T^’$称为表$T$的准标识符，记作$QI$。
+\end{define}
 
+如表\ref{k-anony}所示的病人就诊信息表$T$,假如病情为病人的隐私信息，则隐私信息可以表示为$S$（姓名,~病情),而表$T$能通过属性{住址,~ 年龄,~性别,~ 联系方式}与其他公开发表的数据（如购物信息表）连接得到隐私信息的部分元组，则表$T$的准标识符为$QI$=\{住址,~年龄,~性别,~ 联系方式\}。
+\begin{table}[hbp]
+\label{k-anony}
+\centering  % 表居中
+\begin{tabular}{ccccc}  % {ccccc} 表示各列元素对齐方式，left-l,right-r,center-c
+\hline
+住址 &年龄&性别 &联系方式&病情\\ \hline  % \hline 在此行下面画一横线
+上海普陀区&18 &男 &15315846561 &感冒\\         % \\ 表示重新开始一行
+上海静安区 &20 &男 &15315974561 &肺炎\\        % & 表示列的分隔线
+浙江嘉兴 &26 &女 &16235478951 &中耳炎\\
+浙江杭州 &28 &女 &16235954123 &感冒\\ \hline
+\end{tabular}
+\caption{关系表T}
+\end{table}
+
+\begin{table}[hbp]
+\label{k-anony-2}
+\centering  % 表居中
+\begin{tabular}{ccccc}  % {ccccc} 表示各列元素对齐方式，left-l,right-r,center-c
+\hline
+住址 &年龄&性别 &联系方式&病情\\ \hline  % \hline 在此行下面画一横线
+上海*&[15-20]&男 &15315****** &感冒\\         % \\ 表示重新开始一行
+上海*&[15-20]&男 &15315****** &肺炎\\        % & 表示列的分隔线
+浙江*&[25-30]&女 &16235****** &中耳炎\\
+浙江*&[25-30]&女 &16235****** &感冒\\ \hline
+\end{tabular}
+\caption{关系表$T^*$}
+\end{table}
+
+将表$T$的准表示符属性集记为$A^{QI}$，敏感属性集记为$A^S$，因此可以将表$T$简单表示为$T$($A^{QI},A^S$)。
+
+\begin{define}[k-匿名约束]
+对关系表$T$($A^{QI},A^S$),如果属性$A^{QI}$中每个元组的重复次数至少为$k$($k\geq$2),则称表$T$在属性集$A^{QI}$上满足$k-$匿名约束。
+\end{define}
+
+如表\ref{k-anony-2}所示，在属性集\{住址，年龄，性别，联系方式\}上投影得到的元组具有多重集。元组\{“上海*”，“[15-20]”，“男”，“15315******”\}的重复次数为2，元祖\{“浙江*”，“[20-25]”，“女”，“16235******”\}的重复次数也为2，因此表$T^*$在属性集\{住址，年龄，性别，联系方式\}满足2-匿名约束。
 \subsection{假名技术}
 假名技术属于对用户userID进行保护的一种方法，当用户向位置服务提供商发送请求的时候，采用虚假的userID代替用户的真实userID。这样位置服务提供商就无法收集userID 与位置信息的对应信息。即使存在某个攻击者获得了用户名和对应的位置信息，由于用户名是伪造的，因此不能对用户的隐私造成危害。
 
 混淆的概念早期被应用于网络间的通讯，如今在隐私保护的应用方面也得到了各位学者的青睐。假名技术的代表就是混淆区域（Mix-Zone）技术。Mix-Zone将地图划分为两个区域：应用区域和混淆区域\cite{Mix}。 在应用区域中，用户无需做任何操作，可以正常的享受位置服务提供商所提供的服务。当用户从应用区域进入混淆区域后，用户将不能向位置服务提供商发送自己的位置信息。另外在用户离开混淆区域之前，用户将同步更新自己的身份信息，并且使用是一个之前未曾使用过的假名代替现有的名字。如图\ref{fig:mix_zone_pdf}，当一个用户从混淆区域出来后，服务提供商无法将用户和当前混淆区域中的其他用户区分开来，从而实现了混淆区域中的用户的$k$-匿名保护，在攻击者看来目标用户和其他$k$-1个用户在准标识符$QI$ 上相一致。由于用户在经过不同混淆区域的时候，都会生成新的且从未使用过的假名代替当前的名字，这样使得用户信息的隐私保护程度得到了增强。
 \begin{figure}[H]
 \centering
-\includegraphics[width=14cm]{fig/mix_zone.pdf}
-\caption{独立式结构示意图} %\vspace*{-1.0cm}
+\includegraphics[width=12cm]{fig/mix_zone.pdf}
+\caption{混淆区域示意图} %\vspace*{-1.0cm}
 \label{fig:mix_zone_pdf}
 \end{figure}
-表给出了拥有三个用户的混淆区域的实例，在表中，三个用户的真实身份分别为甲、乙、丙。三个用户分别在第2、5、8 个时间点进入混淆区域，且以$A$、$B$、$C$ 作为其各自的假名。之后进入混合区域2，此时每位用户又分别以新的假名$X$,$Y$,$Z$作为各自的新身份，在第7、8、12个时间点用户分别走出混淆区域。综上，我们可以得出每位用户在混淆区域内的时间分别为5、3、5。由于攻击者无法预测用户在混淆区域内停留时间的长短，当混淆区域用户人数数量较多的时候想要关联用户的身份信息难度很大。
-\begin{table}[tbp]
+表\ref{mix}给出了拥有三个用户的混淆区域的实例，在表中，三个用户的真实身份分别为甲、乙、丙。三个用户分别在第2、5、8 个时间点进入混淆区域，且以$A$、$B$、$C$ 作为其各自的假名。之后进入混合区域2，此时每位用户又分别以新的假名$X$,$Y$,$Z$作为各自的新身份，在第7、8、12个时间点用户分别走出混淆区域。综上，我们可以得出每位用户在混淆区域内的时间分别为5、3、5。由于攻击者无法预测用户在混淆区域内停留时间的长短，当混淆区域用户人数数量较多的时候想要关联用户的身份信息难度很大。
+\begin{table}[H]
+\label{mix}
 \centering  % 表居中
 \begin{tabular}{cccccc}  % {lccc} 表示各列元素对齐方式，left-l,right-r,center-c
 \hline
@@ -103,7 +144,7 @@ $R=(UserID,Position,Query)$
 \ding{176}~用户从$R$中选出正确的消息T。
 \begin{figure}[H]
 \centering
-\includegraphics[width=14 cm]{fig/Dummy.pdf}
+\includegraphics[width=12cm]{fig/Dummy.pdf}
 \caption{假位置通信图} %\vspace*{-1.0cm}
 \label{fig:Dummy_pdf}
 \end{figure}
@@ -177,23 +218,23 @@ $R=(UserID,Position,Query)$
 \subsection{区域覆盖技术}
 区域覆盖技术是位置隐私保护中常见的方法之一\cite{Mokbel}\cite{xu2010privacy}\cite{xu2009feeling}。 该方法的主要思想是将用户精准的位置信息用一个模糊的区域代替，用户在发送请求的时，并不将自己的位置发送给服务器，而是所在区域的某一模糊区域发送给服务器。区域覆盖技术将用户隐藏在一定大小的区域内，使得他人无法获得目标的准确位置。覆盖区域根据实际情况进行选择，一般有圆形覆盖区域和矩形覆盖区域。圆形覆盖区域看起来最为直观和自然\cite{ardagna2007location}\cite{kalnis2007preventing},然而将地图划分为圆形区域会产生大量的重叠，而且在计算和表示等方面都没有矩形区域方便。因此目前最为普遍的区域划分法为矩形区域划分，此划分法将地图划分为若干个互补相交的矩形区域，实现对区域更好的粒度控制。另外文献\cite{wang2009privacy}\cite{hossain2011h}给出了一些不规则的区域划分，例如结合道路的形状将用户的位置以星形区域进行覆盖。
 
-在其中基于$k$-匿名的保护方式最为广泛\cite{Bamba}\cite{Mokbel}\cite{wang2010device}\cite{pan2012protecting}, 很显然，如果一个区域中包含$k$个移动用户，那么当攻击者得到用户所在的区域时，攻击者无法区分出当前发出请求的为哪一个用户，从而这个区域实现了对移动用户位置隐私的$k$-匿名保护。如图\ref{fig:cloaking_pdf}，用户A使用模糊区域（虚线区域）代替自己当前的精确位置，模糊区域中包含其他两位用户，因此模糊区域实现了$k$=3的匿名保护。$k$-匿名亦存在若干的缺点\cite{juncheng2014potential}。为解决这些缺点，出现了$k$-匿名的加强版$l-diversity$\cite{machanavajjhala2007diversity},$t-closeness$\cite{li2007t}等技术，使得攻击者更难得到用户的信息。 一般来说，构造的模糊区域越大，模糊区域中包含的用户就会越多，$k$- 匿名保护中的$k$ 值也就越大，从而隐私保护程度就越高。但这样会给服务器带来更多的计算和通信开销，造成服务器响应延迟，导致服务器服务质量下降。因此区域覆盖技术实际上是通过消耗服务质量来提高隐私保护程度。如何在服务质量和隐私保护程度之间寻求一个平衡点，一直是国内外学者的研究热点。
+在其中基于$k$-匿名的保护方式最为广泛\cite{Bamba}\cite{Mokbel}\cite{wang2010device}\cite{pan2012protecting}, 很显然，如果一个区域中包含$k$个移动用户，那么当攻击者得到用户所在的区域时，攻击者无法区分出当前发出请求的为哪一个用户，从而这个区域实现了对移动用户位置隐私的$k$-匿名保护。如图\ref{fig:cloaking_pdf}，用户A使用模糊区域（虚线区域）代替自己当前的精确位置，模糊区域中包含其他两位用户，因此模糊区域实现了$k$=3的匿名保护。$k$-匿名亦存在若干的缺点\cite{juncheng2014potential}。为解决这些缺点，出现了$k$-匿名的加强版$l-diversity$\cite{machanavajjhala2007diversity},$t-closeness$\cite{li2007t} 等技术，使得攻击者更难得到用户的信息。 一般来说，构造的模糊区域越大，模糊区域中包含的用户就会越多，$k$- 匿名保护中的$k$ 值也就越大，从而隐私保护程度就越高。但这样会给服务器带来更多的计算和通信开销，造成服务器响应延迟，导致服务器服务质量下降。因此区域覆盖技术实际上是通过消耗服务质量来提高隐私保护程度。如何在服务质量和隐私保护程度之间寻求一个平衡点，一直是国内外学者的研究热点。
 \begin{figure}[H]
 \centering
-\includegraphics[width=15cm]{fig/cloaking.pdf}
+\includegraphics[width=12cm]{fig/cloaking.pdf}
 \caption{空间覆盖实例} %\vspace*{-1.0cm}
 \label{fig:cloaking_pdf}
 \end{figure}
 
-SSS每个用户对$k$-匿名中的$k$要求可能有所不同，文献\cite{Mokbel}中，Casper将区域划分为正方形网格，以金字塔的结构对区域进行管理，尽可能的生成用户要求的最小覆盖区域。Casper假设存在一个可信第三方机构——中心代理，中心代理负责将区域划分为$L$+1层（即金字塔的层数为$L$+1），每一层都是对区域的一种划分方式，自上而下划分粒度越来越细。在第一层，只有一个正方形方格，代表将整个区域作为一块方格，第一层粒度最粗（相当于没有划分）。之后每一层的方格数都是由上一层的方格分裂为4个小方格组成的，例如第二层为第一层的1个方格分裂出来的4个方格，第三层为第二层的4个方格分裂出来的16 个方格，图\ref{fig:GoldTower_pdf}给出了前三层的划分结构。当可信代理收到用户的请求后，采用自底向上的请求方式，先查看$L$层中用户位置所在的方格，然后查看所在方格中的其他用户数量$USERS_L$ 是否满足用户提出$k$- 匿名保护中$k$的值，如果满足，则返回$L$层的覆盖区域给用户，否则在同一层查看水平相邻的单元格中用户数量$USERS_{RL}$和竖直相邻单元格中用户数量$USERS_{CL}$,计算$max$\{$USERS_L$+$USERS_{RL}$,$USERS_L$+$USERS_{CL}$\}，若得到的值满足用户对$k$的要求则返回两个单元格，否则在上一层$L$-1层中进行查找。
+SSS每个用户对$k$-匿名中的$k$要求可能有所不同，文献\cite{Mokbel}中，Casper将区域划分为正方形网格，以金字塔的结构对区域进行管理，尽可能的生成用户要求的最小覆盖区域。Casper假设存在一个可信第三方机构——中心代理，中心代理负责将区域划分为$L$+1层（即金字塔的层数为$L$+1），每一层都是对区域的一种划分方式，自上而下划分粒度越来越细。在第一层，只有一个正方形方格，代表将整个区域作为一块方格，第一层粒度最粗（相当于没有划分）。之后每一层的方格数都是由上一层的方格分裂为4个小方格组成的，例如第二层为第一层的1个方格分裂出来的4个方格，第三层为第二层的4个方格分裂出来的16 个方格，图\ref{fig:GoldTower_pdf}给出了前三层的划分结构。当可信代理收到用户的请求后，采用自底向上的请求方式，先查看$L$层中用户位置所在的方格，然后查看所在方格中的其他用户数量$USERS_L$ 是否满足用户提出$k$- 匿名保护中$k$的值，如果满足，则返回$L$层的覆盖区域给用户，否则在同一层查看水平相邻的单元格中用户数量$USERS_{RL}$和竖直相邻单元格中用户数量$USERS_{CL}$, 计算$max$\{$USERS_L$+$USERS_{RL}$,$USERS_L$+$USERS_{CL}$\}，若得到的值满足用户对$k$的要求则返回两个单元格，否则在上一层$L$-1层中进行查找。
 \begin{figure}[H]
 \centering
-\includegraphics[width=10cm]{fig/GoldTower.pdf}
+\includegraphics[width=8cm]{fig/GoldTower.pdf}
 \caption{金字塔划分实例} %\vspace*{-1.0cm}
 \label{fig:GoldTower_pdf}
 \end{figure}
-\subsection{密码学技术}
-***********
+\subsection{基于密码学的隐私保护技术}
+基于密码学的隐私保护技术通常是依靠密码学中存在的一些计算困难问题构造出保护数据隐私的方法。其中典型的代表有安全多方计算（Secure Multi-Party Computation, SMPC），SMPC最早由华人计算机科学家姚期智于1982年提出\cite{}。具体来讲就是有$n$个参与者$P_1$,$P_2$,$P_3$,...,$P_n$希望共同计算某个约定的函数$f$($x_1$,$x_2$,$x_3$,...,$x_n$)~=~($y_1$,$y_2$,$y_3$,...,$y_n$)，其中$x_1$,$x_2$,$x_3$,...,$x_n$ 分别为参与者$P_i$($i ~\epsilon ~[1,n]$) 的保密输入信息，$y_1$,$y_2$,$y_3$,...,$y_n$分别为参与者$P_i$的输出
 
 \section{本章小结}
 \paragraph{兴趣点和兴趣区域挖掘}
