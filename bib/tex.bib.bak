@@ -1,4 +1,30 @@
 Beresford A R, Stajano F. Mix zones: User privacy in location-aware services[J]. 2004.
+@inproceedings{yao1982protocols,
+  title={Protocols for secure computations},
+  author={Yao, Andrew C},
+  booktitle={Foundations of Computer Science, 1982. SFCS'08. 23rd Annual Symposium on},
+  pages={160--164},
+  year={1982},
+  organization={IEEE}
+}
+@inproceedings{li2007t,
+  title={t-closeness: Privacy beyond k-anonymity and l-diversity},
+  author={Li, Ninghui and Li, Tiancheng and Venkatasubramanian, Suresh},
+  booktitle={Data Engineering, 2007. ICDE 2007. IEEE 23rd International Conference on},
+  pages={106--115},
+  year={2007},
+  organization={IEEE}
+}
+@article{machanavajjhala2007diversity,
+  title={l-diversity: Privacy beyond k-anonymity},
+  author={Machanavajjhala, Ashwin and Kifer, Daniel and Gehrke, Johannes and Venkitasubramaniam, Muthuramakrishnan},
+  journal={ACM Transactions on Knowledge Discovery from Data (TKDD)},
+  volume={1},
+  number={1},
+  pages={3},
+  year={2007},
+  publisher={ACM}
+}
 @incollection{juncheng2014potential,
   title={Potential Attacks against k-Anonymity on LBS and Solutions for Defending the Attacks},
   author={Juncheng, Pan and Huimin, Deng and Yinghui, Song and Dong, Li},

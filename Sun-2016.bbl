@@ -309,4 +309,77 @@
   International Conference on}\@. \bibyear{2007}\thinspace{}\textnormal{:
   }\bibpages{106\thinspace{}\textnormal{--}\thinspace{}115}\@.
 
+\bibitem{yao1982protocols}
+\bibauthor{YAO A~C}\@. \bibtitle{Protocols for secure
+  computations}\bibmark{[C]} //\thinspace{}\bibbooktitle{Foundations of
+  Computer Science, 1982. SFCS'08. 23rd Annual Symposium on}\@.
+  \bibyear{1982}\thinspace{}\textnormal{:
+  }\bibpages{160\thinspace{}\textnormal{--}\thinspace{}164}\@.
+
+\bibitem{clifton2002tools}
+\bibauthor{CLIFTON C\@, KANTARCIOGLU M\@, VAIDYA J, et~al}\@. \bibtitle{Tools
+  for privacy preserving distributed data mining}\bibmark{[J]}\@.
+  \bibjournal{ACM Sigkdd Explorations Newsletter}\@, \bibyear{2002}\@,
+  \bibvolume{4}\bibnumber{(2)}\thinspace{}\textnormal{:
+  }\bibpages{28\thinspace{}\textnormal{--}\thinspace{}34}\@.
+
+\bibitem{goldwasser1997multi}
+\bibauthor{GOLDWASSER S}\@. \bibtitle{Multi party computations: past and
+  present}\bibmark{[C]} //\thinspace{}\bibbooktitle{Proceedings of the
+  sixteenth annual ACM symposium on Principles of distributed computing}\@.
+  \bibyear{1997}\thinspace{}\textnormal{:
+  }\bibpages{1\thinspace{}\textnormal{--}\thinspace{}6}\@.
+
+\bibitem{du2001secure}
+\bibauthor{DU W\@, ATALLAH M~J}\@. \bibtitle{Secure multi-party computation
+  problems and their applications: a review and open problems}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the 2001 workshop on New security
+  paradigms}\@. \bibyear{2001}\thinspace{}\textnormal{:
+  }\bibpages{13\thinspace{}\textnormal{--}\thinspace{}22}\@.
+
+\bibitem{oleshchuk2007secure}
+\bibauthor{OLESHCHUK V~A\@, ZADOROZHNY V}\@. \bibtitle{Secure multi-party
+  computations and privacy preservation: Results and open
+  problems}\bibmark{[J]}\@. \bibjournal{Telektronikk}\@, \bibyear{2007}\@,
+  \bibvolume{103}\bibnumber{(2)}\thinspace{}\textnormal{: }\bibpages{20}\@.
+
+\bibitem{shi2011privacy}
+\bibauthor{SHI E\@, CHAN T~H\@, RIEFFEL E, et~al}\@.
+  \bibtitle{Privacy-preserving aggregation of time-series data}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proc. NDSS\thinspace{}\textnormal{: }Vol~2}\@.
+  \bibyear{2011}\thinspace{}\textnormal{:
+  }\bibpages{1\thinspace{}\textnormal{--}\thinspace{}17}\@.
+
+\bibitem{jung2013privacy}
+\bibauthor{JUNG T\@, MAO X\@, LI X-Y, et~al}\@. \bibtitle{Privacy-preserving
+  data aggregation without secure channel: Multivariate polynomial
+  evaluation}\bibmark{[C]} //\thinspace{}\bibbooktitle{INFOCOM, 2013
+  Proceedings IEEE}\@. \bibyear{2013}\thinspace{}\textnormal{:
+  }\bibpages{2634\thinspace{}\textnormal{--}\thinspace{}2642}\@.
+
+\bibitem{ghinita2008private}
+\bibauthor{GHINITA G\@, KALNIS P\@, KHOSHGOZARAN A, et~al}\@. \bibtitle{Private
+  queries in location based services: anonymizers are not
+  necessary}\bibmark{[C]} //\thinspace{}\bibbooktitle{Proceedings of the 2008
+  ACM SIGMOD international conference on Management of data}\@.
+  \bibyear{2008}\thinspace{}\textnormal{:
+  }\bibpages{121\thinspace{}\textnormal{--}\thinspace{}132}\@.
+
+\bibitem{kushilevitz1997replication}
+\bibauthor{KUSHILEVITZ E\@, OSTROVSKY R}\@. \bibtitle{Replication is not
+  needed: Single database, computationally-private information
+  retrieval}\bibmark{[C]} //\thinspace{}\bibbooktitle{focs}\@.
+  \bibyear{1997}\thinspace{}\textnormal{: }\bibpages{364}\@.
+
+\bibitem{flath1989introduction}
+\bibauthor{FLATH D~E}\@. \bibtitle{Introduction to number
+  theory}\bibmark{[J]}\@, \bibyear{1989}\@.
+
+\bibitem{khoshgozaran2011location}
+\bibauthor{KHOSHGOZARAN A\@, SHAHABI C\@, SHIRANI-MEHR H}\@. \bibtitle{Location
+  privacy: going beyond K-anonymity, cloaking and anonymizers}\bibmark{[J]}\@.
+  \bibjournal{Knowledge and Information Systems}\@, \bibyear{2011}\@,
+  \bibvolume{26}\bibnumber{(3)}\thinspace{}\textnormal{:
+  }\bibpages{435\thinspace{}\textnormal{--}\thinspace{}465}\@.
+
 \end{thebibliography}

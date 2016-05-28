@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2016.5.5)  28 MAY 2016 17:50
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2016.5.5)  28 MAY 2016 21:08
 entering extended mode
 **Sun-2016.tex
 (D:\Documents\我的文档\GitHub\sh-1\Sun-2016.tex
@@ -1938,9 +1938,6 @@ Requested font "SimHei/ICU:script=latn;language=DFLT;mapping=tex-text;embolden=
  -> C:/windows/Fonts/simhei.ttf
 Requested font "pzdr" at 12.0pt
  -> pzdr
-
-Package natbib Warning: Citation `Mobile' on page 1 undefined on input line 8.
-
 [1
 
 ]
@@ -1968,92 +1965,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2]
-
-Package natbib Warning: Citation `knn' on page 3 undefined on input line 23.
-
-
-Package natbib Warning: Citation `RSAInfo' on page 3 undefined on input line 23
-.
-
-
-Package natbib Warning: Citation `sweeney' on page 3 undefined on input line 27
-.
-
-[3]
-
-Package natbib Warning: Citation `group' on page 4 undefined on input line 29.
-
-
-Package natbib Warning: Citation `homomor' on page 4 undefined on input line 29
-.
-
-
-Package natbib Warning: Citation `muticompute' on page 4 undefined on input lin
-e 29.
-
-
-Package natbib Warning: Citation `differential' on page 4 undefined on input li
-ne 29.
-
-
-Package natbib Warning: Citation `kanonomy' on page 4 undefined on input line 2
-9.
-
-
-Package natbib Warning: Citation `Myles' on page 4 undefined on input line 31.
-
-
-Package natbib Warning: Citation `Youssef' on page 4 undefined on input line 31
-.
-
-
-Package natbib Warning: Citation `Beresford' on page 4 undefined on input line 
-31.
-
-
-Package natbib Warning: Citation `Bamba' on page 4 undefined on input line 31.
-
-
-Package natbib Warning: Citation `Chow' on page 4 undefined on input line 31.
-
-
-Package natbib Warning: Citation `Mokbel' on page 4 undefined on input line 31.
-
-
-
-Package natbib Warning: Citation `YiuML' on page 4 undefined on input line 31.
-
-
-Package natbib Warning: Citation `Shankar' on page 4 undefined on input line 31
-.
-
-
-Package natbib Warning: Citation `HuH' on page 4 undefined on input line 31.
-
-
-Package natbib Warning: Citation `Khoshgozaran' on page 4 undefined on input li
-ne 31.
-
-
-Package natbib Warning: Citation `Ghinita' on page 4 undefined on input line 31
-.
-
-
-Package natbib Warning: Citation `GhinitaPRIVE' on page 4 undefined on input li
-ne 31.
-
-[4]
-
-Package natbib Warning: Citation `Williams' on page 5 undefined on input line 3
-9.
-
-[5] [6]) (D:\Documents\我的文档\GitHub\sh-1\C2-CHAP2.tex [7]
+[2] [3] [4] [5] [6]) (D:\Documents\我的文档\GitHub\sh-1\C2-CHAP2.tex
+[7]
 第二章
-
-Package natbib Warning: Citation `zhanghao' on page 8 undefined on input line 3
-.
-
 Requested font "Times New Roman/B/ICU:script=latn;language=DFLT;mapping=tex-tex
 t;" at 14.4pt
  -> C:/windows/Fonts/timesbd.ttf
@@ -2077,38 +1991,14 @@ Requested font "SimHei/ICU:script=latn;language=DFLT;mapping=tex-text;embolden=
  -> C:/windows/Fonts/simhei.ttf
 [8
 
-]
-
-Package natbib Warning: Citation `WuYinJie' on page 9 undefined on input line 1
-6.
-
-[9]
-
-Package natbib Warning: Citation `ChengR' on page 10 undefined on input line 18
-.
-
+] [9]
 File: fig/independentConstruction.pdf Graphic file (type QTm)
-<use  "fig/independentConstruction.pdf" > [10]
-
-Package natbib Warning: Citation `Gruteser' on page 11 undefined on input line 
-30.
-
+ <use  "fig/independentConstruction.pdf" > [10]
 File: fig/p2p.pdf Graphic file (type QTm)
-<use  "fig/p2p.pdf" > [11]
+ <use  "fig/p2p.pdf" >
+[11]
 File: fig/centralized.pdf Graphic file (type QTm)
  <use  "fig/centralized.pdf" > [12]
-
-Package natbib Warning: Citation `group' on page 13 undefined on input line 58.
-
-
-
-Package natbib Warning: Citation `Beresford' on page 13 undefined on input line
- 58.
-
-
-Package natbib Warning: Citation `ChengR' on page 13 undefined on input line 58
-.
-
 Package hyperref Info: bookmark level for unknown define defaults to 0 on input
  line 59.
 .................................................
@@ -2122,42 +2012,12 @@ Package hyperref Info: bookmark level for unknown define defaults to 0 on input
 Requested font "[SIMKAI.TTF]/ICU:script=latn;language=DFLT;mapping=tex-text;" a
 t 12.0pt
  -> C:/WINDOWS/Fonts/SIMKAI.TTF
-[13]
-
-Package caption Warning: \label without proper \caption on input line 73.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `k-anony' on page 14 undefined on input line 71.
-
-[14]
-
-Package caption Warning: \label without proper \caption on input line 87.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `k-anony-2' on page 15 undefined on input line 106.
-
-
-Package natbib Warning: Citation `Mix' on page 15 undefined on input line 110.
-
+ [13] [14]
 File: fig/mix_zone.pdf Graphic file (type QTm)
-<use  "fig/mix_zone.pdf" > [15]
-
-Package caption Warning: \label without proper \caption on input line 119.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `mix' on page 16 undefined on input line 117.
-
-[16]
+ <use  "fig/mix_zone.pdf" >
+[15] [16]
 File: fig/Dummy.pdf Graphic file (type QTm)
- <use  "fig/Dummy.pdf" > [17]
-
-Package natbib Warning: Citation `Dummies' on page 18 undefined on input line 1
-58.
-
-[18]
+ <use  "fig/Dummy.pdf" > [17] [18]
 File: fig/ubiquity.pdf Graphic file (type QTm)
  <use  "fig/ubiquity.pdf" >
 Requested font "SimSun" at 10.0pt
@@ -2176,7 +2036,8 @@ Requested font "SimSun/ICU:script=latn;language=DFLT;mapping=tex-text;" at 10.0
 pt
  -> C:/windows/Fonts/simsun.ttc
 File: fig/congestion.pdf Graphic file (type QTm)
- <use  "fig/congestion.pdf" >
+
+<use  "fig/congestion.pdf" >
 Missing character: There is no 隐 in font Times New Roman/ICU:script=latn;lang
 uage=DFLT;mapping=tex-text;!
 Missing character: There is no 私 in font Times New Roman/ICU:script=latn;lang
@@ -2216,7 +2077,7 @@ Requested font "Times New Roman/ICU:script=latn;language=DFLT;mapping=tex-text;
 " at 10.95pt
  -> C:/windows/Fonts/times.ttf
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 197.
+put line 194.
 Requested font "Times New Roman/B/ICU:script=latn;language=DFLT;mapping=tex-tex
 t;" at 10.95pt
  -> C:/windows/Fonts/timesbd.ttf
@@ -2259,139 +2120,90 @@ Requested font "cmr10" at 10.95pt
  -> cmr10
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 205.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 202.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 205.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 202.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 205.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 202.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 205.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 202.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 210.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 207.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 210.
-
-
-Package natbib Warning: Citation `Mokbel' on page 20 undefined on input line 21
-9.
-
-
-Package natbib Warning: Citation `xu2010privacy' on page 20 undefined on input 
-line 219.
-
-
-Package natbib Warning: Citation `xu2009feeling' on page 20 undefined on input 
-line 219.
-
-
-Package natbib Warning: Citation `ardagna2007location' on page 20 undefined on 
-input line 219.
-
-
-Package natbib Warning: Citation `kalnis2007preventing' on page 20 undefined on
- input line 219.
-
-
-Package natbib Warning: Citation `wang2009privacy' on page 20 undefined on inpu
-t line 219.
-
-
-Package natbib Warning: Citation `hossain2011h' on page 20 undefined on input l
-ine 219.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 207.
 
 [20]
-
-Package natbib Warning: Citation `Bamba' on page 21 undefined on input line 221
-.
-
-
-Package natbib Warning: Citation `Mokbel' on page 21 undefined on input line 22
-1.
-
-
-Package natbib Warning: Citation `wang2010device' on page 21 undefined on input
- line 221.
-
-
-Package natbib Warning: Citation `pan2012protecting' on page 21 undefined on in
-put line 221.
-
-
-Package natbib Warning: Citation `juncheng2014potential' on page 21 undefined o
-n input line 221.
-
-
-Package natbib Warning: Citation `machanavajjhala2007diversity' on page 21 unde
-fined on input line 221.
-
-
-Package natbib Warning: Citation `li2007t' on page 21 undefined on input line 2
-21.
-
 File: fig/cloaking.pdf Graphic file (type QTm)
-<use  "fig/cloaking.pdf" >
-
-Package natbib Warning: Citation `Mokbel' on page 21 undefined on input line 22
-9.
-
+ <use  "fig/cloaking.pdf" >
 File: fig/GoldTower.pdf Graphic file (type QTm)
-<use  "fig/GoldTower.pdf" > [21] [22]
+ <use  "fig/GoldTower.pdf" > [21] [22]
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 239.
-
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 239.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 236.
 
 
-Package natbib Warning: Citation `126' on page 23 undefined on input line 239.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 236.
 
 
-Package natbib Warning: Citation `126' on page 23 undefined on input line 239.
+Overfull \hbox (1.30635pt too wide) in paragraph at lines 236--237
+\OML/cmm/m/it/12 n$ \xeCJK@rm/m/sl/12 个 参 与 者 $\OML/cmm/m/it/12 P[]$\EU
+1/TimesNewRoman(0)/m/sl/12 ,$\OML/cmm/m/it/12 P[]$\EU1/TimesNewRoman(0)/m/sl/12
+ ,$\OML/cmm/m/it/12 P[]$\EU1/TimesNewRoman(0)/m/sl/12 ,...,$\OML/cmm/m/it/12 P[
+]$ \xeCJK@rm/m/sl/12 希 望 共 同 计 算 某 个 约 定 的 函 数 $\OML/
+cmm/m/it/12 f$\EU1/TimesNewRoman(0)/m/sl/12 ($\OML/cmm/m/it/12 x[]$\EU1/TimesNe
+wRoman(0)/m/sl/12 ,$\OML/cmm/m/it/12 x[]$\EU1/TimesNewRoman(0)/m/sl/12 ,$\OML/c
+mm/m/it/12 x[]$\EU1/TimesNewRoman(0)/m/sl/12 ,...,$\OML/cmm/m/it/12 x[]$\EU1/Ti
+mesNewRoman(0)/m/sl/12 ) = ($\OML/cmm/m/it/12 y[]$\EU1/TimesNewRoman(0)/m/sl/12
+ ,$\OML/cmm/m/it/12 y[]$\EU1/TimesNewRoman(0)/m/sl/12 ,$\OML/cmm/m/it/12 y[]$\E
+U1/TimesNewRoman(0)/m/sl/12 , 
+ []
 
 
-Package natbib Warning: Citation `128' on page 23 undefined on input line 239.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 238.
 
 
-Package natbib Warning: Citation `129' on page 23 undefined on input line 239.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 238.
 
 
-Package natbib Warning: Citation `130' on page 23 undefined on input line 239.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 240.
 
 
-Package natbib Warning: Citation `89' on page 23 undefined on input line 241.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 240.
 
 
-Package natbib Warning: Citation `97' on page 23 undefined on input line 241.
-
-) [23] (D:\Documents\我的文档\GitHub\sh-1\Sun-2016.bbl [24
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 244.
 
 
-] [25] [26]
-[27]
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 244.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 246.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 247.
+
+[23]
+File: fig/PIR.pdf Graphic file (type QTm)
+ <use  "fig/PIR.pdf" >) [24] [25]
+(D:\Documents\我的文档\GitHub\sh-1\Sun-2016.bbl [26
+
+
+] [27] [28] [29]
 Underfull \hbox (badness 1152) in paragraph at lines 306--311
 []\EU1/TimesNewRoman(0)/m/sl/12 LI N, LI T, VENKATASUBRAMANIAN S. t-closeness: 
 Privacy beyond k-
  []
 
-) [28]
-No file Sun-2016.ind.
+[30]) [31] (D:\Documents\我的文档\GitHub\sh-1\Sun-2016.ind)
 \tf@thm=\write6
-
-Package natbib Warning: There were undefined citations.
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 224.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 224.
-(D:\Documents\我的文档\GitHub\sh-1\Sun-2016.aux
 
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
+(D:\Documents\我的文档\GitHub\sh-1\Sun-2016.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 224.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 224.
 
@@ -2399,19 +2211,16 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 224.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 24593 strings out of 430478
- 457633 string characters out of 3191028
- 497595 words of memory out of 3000000
- 27238 multiletter control sequences out of 15000+200000
+ 24625 strings out of 430478
+ 458554 string characters out of 3191028
+ 498442 words of memory out of 3000000
+ 27267 multiletter control sequences out of 15000+200000
  45890 words of font info for 280 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  57i,12n,92p,1163b,769s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Sun-2016.pdf (37 pages).
+Output written on Sun-2016.pdf (40 pages).

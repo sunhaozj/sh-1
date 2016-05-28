@@ -19,11 +19,11 @@
 \contentsline {subsection}{\numberline {2.2.3}中心服务器结构}{12}{subsection.2.2.3}
 \contentsline {section}{\numberline {2.3}隐私保护技术}{13}{section.2.3}
 \contentsline {paragraph}{基本概念}{14}{thm2.2.3.2}
-\contentsline {subsection}{\numberline {2.3.1}假名技术}{15}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}假位置技术}{17}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}区域覆盖技术}{20}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.1}基于假名的隐私保护技术}{15}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}基于假位置的隐私保护技术}{17}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}基于区域覆盖的隐私保护技术}{20}{subsection.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4}基于密码学的隐私保护技术}{23}{subsection.2.3.4}
-\contentsline {section}{\numberline {2.4}本章小结}{23}{section.2.4}
-\contentsline {paragraph}{兴趣点和兴趣区域挖掘}{23}{section*.23}
-\contentsline {chapter}{参考文献}{24}{section*.23}
+\contentsline {section}{\numberline {2.4}本章小结}{24}{section.2.4}
+\contentsline {paragraph}{兴趣点和兴趣区域挖掘}{24}{section*.24}
+\contentsline {chapter}{参考文献}{26}{section*.24}
 \contentsfinish 
