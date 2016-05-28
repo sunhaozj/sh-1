@@ -2,6 +2,12 @@ This is BibTeX, Version 0.99dThe top-level auxiliary file: Sun-2016.aux
 The style file: GBT7714-2005.bst
 Database file #1: bib/tex.bib
 Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "126"
+Warning--I didn't find a database entry for "128"
+Warning--I didn't find a database entry for "129"
+Warning--I didn't find a database entry for "130"
+Warning--I didn't find a database entry for "89"
+Warning--I didn't find a database entry for "97"
 Warning--Require address: knn
 Warning--Require address: RSAInfo
 Warning--Require address: muticompute
@@ -21,4 +27,4 @@ Warning--Require address: Gruteser
 Warning--Require address: Dummies
 Warning--Require address: ardagna2007location
 Warning--Require address: juncheng2014potential
-(There were 20 warnings)
+(There were 26 warnings)
