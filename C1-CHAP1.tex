@@ -28,7 +28,7 @@
 
 数据发布的隐私保护技术主要有数据加密、数据匿名、数据扰乱等隐私保护技术。数据加密技术主要是基于密码学的隐私保护技术，文献\cite{group}利用群签名短发自主生成一系列伪签名证书来达到隐私保护效果，文献\cite{homomor}利用全同态加密方法使得服务器在不知道任何明文的内容的情况下可以在密文域上进行运算操作，得到的结果与在明文进行运算的结果相同。文献\cite{muticompute} 利用安全多方计算，可以保证在他人无法获得个人数据内同的情况下，计算出想要的结果。数据扰乱是一种数据失真的技术，Dwork等人提出了一种典型的数据扰乱的隐私保护模型—— 差分隐私模型\cite{differential}，通过对发布的数据添加噪声进行随机扰动，使得在统计意义上攻击者无论具有何种背景知识，都不能判断一条记录是否存在原始数据表中。基于数据匿名的隐私保护技术主要是通过{$k$}-匿名技术\cite{kanonomy}，在一个满足{$k$}- 匿名的数据库中，对于某一个准标识符（{$QID$}, Quasi-Identifiers），值相同的记录至少有{$k$}条记录，因此通过{$QID$}去推断某一个目标记录的概率最多为{$1/k$}。
 
-用户空间位置的隐私保护旨在保护用户当前的位置，近些年来，出现了很多位置隐私保护技术，在一定程度上保护了位置的隐私。这些技术主要包括：信息访问控制（Information access control）\cite{Myles}\cite{Youssef}、混合区域(Mix zone)\cite{Beresford}、 {$k$}- 匿名技术({$k$}-anonymity)\cite{Bamba}\cite{Chow}\cite{Mokbel}、假地址技术("Dummy locations")\cite{YiuML}\cite{Shankar}、 地理数据转(Geographic data transformation)\cite{HuH}\cite{Khoshgozaran}、 私有信息检索(Private Information Retrial,PIR)\cite{Ghinita}\cite{GhinitaPRIVE}。
+用户空间位置的隐私保护旨在保护用户当前的位置，近些年来，出现了很多位置隐私保护技术，在一定程度上保护了位置的隐私。这些技术主要包括：信息访问控制（Information access control）\cite{Myles}\cite{Youssef}、混合区域(Mix zone)\cite{Beresford}、 {$k$}- 匿名技术({$k$}-anonymity)\cite{Bamba}\cite{Chow}\cite{Mokbel}、假地址技术("Dummy locations")\cite{YiuML}\cite{Shankar}、 地理数据转(Geographic data transformation)\cite{HuH}\cite{Khoshgozaran}、 隐私消息恢复(Private Information Retrial,PIR)\cite{Ghinita}\cite{GhinitaPRIVE}。
 
 基于访问控制，混合区域以及{$k$}-匿名LBS查询需要服务提供商或者中间件维护所有用户的位置。当服务器提供商/中间件由不可信方代理，受到的保护力度会相应的降低，因此容易受到第三方的攻击。在过去，私人数据无意间就暴露在互联网上。
 
